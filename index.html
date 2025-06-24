@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Beautiful Girls Lifestyle</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="hero">
+    <h1>Beautiful Girls Lifestyle</h1>
+    <p>Shine. Slay. Be Unstoppable. 💖</p>
+  </header>
+
+  <nav class="navbar">
+    <a href="#about">About</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#bot">AI Chat</a>
+    <a href="#game">Game</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about" class="section">
+    <h2>About Us</h2>
+    <p>We empower girls to love themselves, explore beauty, fashion, confidence, and enjoy interactive fun.</p>
+  </section>
+
+  <section id="gallery" class="section">
+    <h2>Gallery</h2>
+    <div class="gallery-grid">
+      <img src="images/photo1.jpg" alt="Photo 1" />
+      <img src="images/photo2.jpg" alt="Photo 2" />
+      <img src="images/photo3.jpg" alt="Photo 3" />
+    </div>
+  </section>
+
+  <section id="bot" class="section">
+    <h2>Talk to Bella 🤖</h2>
+    <div class="chat-container">
+      <div id="chat-log"></div>
+      <input type="text" id="user-input" placeholder="Ask me anything..." />
+      <button onclick="sendMessage()">Send</button>
+    </div>
+  </section>
+
+  <section id="game" class="section">
+    <h2>Mini Game 🎮</h2>
+    <p>Click the button as fast as you can!</p>
+    <div id="game-area">
+      <button onclick="playGame()">Click Me!</button>
+      <p id="score">Score: 0</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Advertisement</h2>
+    <div class="ad-box">
+      <!-- You can replace this with Google Ads or affiliate banner -->
+      <p><strong>Ad:</strong> Check out the latest fashion deals!</p>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Your name" required />
+      <input type="email" placeholder="Your email" required />
+      <textarea placeholder="Your message"></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    &copy; 2025 Beautiful Girls Lifestyle | All Rights Reserved
+  </footer>
+
+  <script src="bot.js"></script>
+  <script src="game.js"></script>
+</body>
+</html>
